@@ -6,8 +6,8 @@ with open(path.join(working_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name=  'discord-embeds-pagination',
-    version = '0.0.6',
+    name = 'discord-embeds-pagination',
+    version = '0.0.7',
     url = 'https://github.com/omaxpy/discord-embeds-pagination',
     author = 'omaxpy',
     author_email = 'moukasland@gmail.com',
@@ -18,7 +18,7 @@ setup(
     install_requires = [
         "discord.py==2.4.0",
     ],
-    classifiers=[
+    classifiers = [
         "Programming Language :: Python :: 3",
     ]
 )
